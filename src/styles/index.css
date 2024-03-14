@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #1b0d2a;
+}
+
+.container{
+    
+}
+.logo{
+  padding: 0.5rem;
+}
+.logo-name{
+    font-size: 25px;
+}
+.navbar{
+display: flex;
+align-items: center;
+
+color: white;
+justify-content: space-between;
+}
+
+ul{
+ display: flex;
+ margin-right: 3rem;
+ align-items: center;
+ 
+}
+li{
+   list-style: none;
+   padding: 0 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+
+}
+a:hover{
+    color: gold;
+}
+
+.hire-me{
+    background: #7846de;
+    border: none;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.info-container{
+    background-color: #1b0d2a;
+}
+.info{
+    padding: 4rem 2rem;
+   
+    display: flex;
+    justify-content: space-around;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+}
+.subham{
+    color: silver;
+    font-size: 3rem;
+}
+.web{
+    font-size: 4.5rem;
+    color: #9d70f9;
+}
+.ux{
+    font-size: 4.5rem;
+    color: #9d70f9;
+}
+
+.para{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.cv{
+    
+    border:1px solid #7846de;
+    font-size: 23px;
+    padding: 0.5rem 1rem;
+    color: #7846de;
+    border-radius: 1rem;
+    
+}
+
+.cv:hover{
+    background-color: #7846de;
+    color: white;
+}
+
+.link{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.linkedin{
+    font-size: 2rem;
+        color: #7846de;
+        cursor: pointer;
+}
+.github{
+     font-size: 2rem;
+        color: #7846de;
+        cursor: pointer;
+}
+.facebook{
+    font-size: 2rem;
+        color: #7846de;
+        cursor: pointer;
+}
+.right{
+    
+}
+
+img{
+    width: 20rem;
+    border: 1px solid #7846de;
+    border-radius: 0.6rem;
+    transform: rotate(5deg);
+    transition: transform 0.3s ease;
+}
+
+img:hover{
+    transform: rotate(0deg);
+}
+
